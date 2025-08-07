@@ -1,60 +1,47 @@
-#assuming your talking to a boda guy with primary seven knowledge;briefly explain the following with examples;
-#a statement
-#a code
-#a memory address
-#a variable name
-#an operator
-#an operand
-#datatype
-#a list of values
-#a python script/module
+# A Statement
+# A statement is a single instruction to the computer,
+print("Welcome!")  # This tells the computer to say Welcome.
 
-#A STATEMENT
-#is a single complete instruction to a computer.(eg salary=2000)
-print("no long talk")
-#this will tell the computer to say "no long talk"
+# A Code
+# A Code is a collection of statements that work together.
+name = "Dodo"
+print("Nice to meet you,", name)
 
-#A CODE
-#a code is a group of statements which is written to do something 
-#code is just like instructions,you write it to tell the computer what to do just like someone tells you where to go and what to carry
-print("i will save some money today to buy a helmet")
-print("i will stop working at 6pm")
+# Memory Address
+# It is where every variable stores data in a specific location in memory.
+# it is like having a carbin with different drawers each labelled, one for pants, one for dresses, one for ties.
+print("Memory address of 'name':", id(name))
 
-#A MEMORY ADDRESS
-#this is like a house address but here the computer keeps things there
-#for example if you have left your boda jacket at the stage in a box number 209,in computers that number is the memory address where data is stored.
+# A Variable Name
+# A variable is like a labeled box that holds data.
+age = 10
+print("Zara is", age, "years old.")
 
-#A VARIABLE NAME
-#this is like a name used to store something in a computer,it shouldnt start with a number ,it shouldnt have spaces,it shouldnt start with capital letters as well.
-#its like a label you give to something so that the computer can remember it and use it later 
-#for example evening=200000
+# Operator
+# Operators perform actions like addition or comparison.
+print("2 + 3 =", 2 + 3)  # '+' is the operator
 
-#AN OPERATOR
-#a symbol or word or character that tells a computer what to do with a value. symbols include(+,-,*,/,//,%)
-#it has many categories which include mathematical.assignment,comparison,logical,and special
-#just like the road signs tel you what to do
-#for example if you made 20000 in the morning,30000 in the evening and you want to add them you say;
-print(20000+30000)
-#it will give you the total...you just have to keep changing the symbols to get the value you want
+# Operand 
+# Operands are the values that operators act on.
+# In 2 + 3, the operands are 2 and 3.
 
-#AN OPERAND
-#this is simply a value.
-# for example 150000+450000
-#150000 and 450000 are operands/values/numbers
+# Data Types
+# They are lebels that tell python what kind of information you are working on
+# like how you might lebel your spice jars. "cumin","garlic","royco"
+# Python has different types of data:
+number = 5           # Integer
+word = "hello"       # String
+truth = True         # Boolean
+print("Data types:", type(number), type(word), type(truth))
 
-#DATATYPES
-#more like values to be stored in the memory of a computer,it shows the kind of value your working with
-#for example 500 is a number which is called integer in python
-#"benitah" is a text/string which is normally in quotes
-animals["dog","cat","goat"]
-#that is a list
+# List of Values
+# A list is a group of items stored together.
+groceries = ["milk", "bread", "eggs"]
+print("Grocery list:", groceries)
 
-#A LIST OF VALUES
-#this is like a group of items you write down and is stored in square brackets separated by commas.
-my_fruits["apples","orange","mango","strawberries"]
+# Python Script vs Module
+# A script is a python file you run to do something. 
+# it is like pressing "play" on the playlist and music starts playing
 
-#A PYTHON SCRIPT/MODULE
-#a file of python code with an extension of .py
-#its like a guidebook or notebook where you write down alll the steps for something you want the computer to do
-
-
+# A module is like a toolbox. 
+# It’s a file that contains Python code—functions, variables, and classes—that you can use in your own programs.
